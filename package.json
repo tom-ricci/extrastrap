@@ -1,0 +1,18 @@
+{
+  "name": "extrastrap",
+  "version": "0.0.0",
+  "description": "Bootstrap-like utility classes to fill all your needs.",
+  "main": "dist/main.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "extrastrap",
+    "utility",
+    "classes",
+    "css"
+  ],
+  "author": "Thomas Ricci",
+  "license": "MIT"
+}
