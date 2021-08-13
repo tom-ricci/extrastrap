@@ -1,7 +1,7 @@
 {
   "name": "extrastrap",
-  "version": "0.0.0",
-  "description": "Bootstrap-like utility classes to fill all your needs.",
+  "version": "0.1.0",
+  "description": "Bootstrap-like utility classes made to extend your Bootstrap usage.",
   "main": "index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +18,14 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^5.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-ricci/extrastrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tom-ricci/extrastrap/issues"
+  },
+  "homepage": "https://github.com/tom-ricci/extrastrap#readme"
 }
