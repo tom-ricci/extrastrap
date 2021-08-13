@@ -2,9 +2,10 @@
   "name": "extrastrap",
   "version": "0.0.0",
   "description": "Bootstrap-like utility classes to fill all your needs.",
-  "main": "dist/main.css",
+  "main": "index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/main.scss dist/main.css"
   },
   "keywords": [
     "bootstrap",
@@ -14,5 +15,8 @@
     "css"
   ],
   "author": "Thomas Ricci",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
 }
