@@ -1,5 +1,5 @@
 # Extrastrap
-Extrastrap is a small library of Bootstrap-like utility classes made to extend your Bootstrap usage that I find I need to use the most. If I end up finding myself needing to write more utilities often, I'll add them to this.
+Extrastrap is a small library of Bootstrap-like utility classes made to extend your Bootstrap usage.
 ### Utilities:
 - Cursors
 - Sizing
@@ -29,3 +29,5 @@ Extrastrap is a small library of Bootstrap-like utility classes made to extend y
   - 3000 with `z5`
   - 2000 with `z6`
   - Auto with `zauto`
+# Contributing
+If you want to suggest an addition to Extrastrap or want to add something yourself, either open an issue or PR respectively.
