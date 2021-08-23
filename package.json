@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run transpile && npm run minify && npm run clean",
-    "prepare": "rm -rf temp && rmdir -rf dist",
+    "prepare": "rm -rf temp && rm -rf dist",
     "transpile": "sass src/main.scss temp/main.css",
     "minify": "minify temp/main.css > dist/main.css",
     "clean": "rm -rf temp"
