@@ -1,0 +1,225 @@
+// min width
+$utilities: map-merge(
+    $utilities,
+    (
+        "min-width": (
+            property: min-width,
+            class: miw,
+            values: (
+                5: 5%,
+                10: 10%,
+                15: 15%,
+                20: 20%,
+                25: 25%,
+                30: 30%,
+                35: 35%,
+                40: 40%,
+                45: 45%,
+                50: 50%,
+                55: 55%,
+                60: 60%,
+                65: 65%,
+                70: 70%,
+                75: 75%,
+                80: 80%,
+                85: 85%,
+                90: 90%,
+                95: 95%,
+                100: 100%,
+                auto: auto
+            )
+        ),
+    )
+);
+// width
+$utilities: (
+    "width": (
+        property: width,
+        class: w,
+        values: (
+            5: 5%,
+            10: 10%,
+            15: 15%,
+            20: 20%,
+            25: 25%,
+            30: 30%,
+            35: 35%,
+            40: 40%,
+            45: 45%,
+            50: 50%,
+            55: 55%,
+            60: 60%,
+            65: 65%,
+            70: 70%,
+            75: 75%,
+            80: 80%,
+            85: 85%,
+            90: 90%,
+            95: 95%,
+            100: 100%,
+            auto: auto
+        )
+    ),
+);
+// max-width
+$utilities: (
+    "max-width": (
+        property: max-width,
+        class: mw,
+        values: (
+            5: 5%,
+            10: 10%,
+            15: 15%,
+            20: 20%,
+            25: 25%,
+            30: 30%,
+            35: 35%,
+            40: 40%,
+            45: 45%,
+            50: 50%,
+            55: 55%,
+            60: 60%,
+            65: 65%,
+            70: 70%,
+            75: 75%,
+            80: 80%,
+            85: 85%,
+            90: 90%,
+            95: 95%,
+            100: 100%,
+            auto: auto
+        )
+    ),
+);
+// vw-width
+$utilities: (
+    "viewport-width": (
+        property: width,
+        class: vw,
+        values: (
+            5: 5vw,
+            10: 10vw,
+            15: 15vw,
+            20: 20vw,
+            25: 25vw,
+            30: 30vw,
+            35: 35vw,
+            40: 40vw,
+            45: 45vw,
+            50: 50vw,
+            55: 55vw,
+            60: 60vw,
+            65: 65vw,
+            70: 70vw,
+            75: 75vw,
+            80: 80vw,
+            85: 85vw,
+            90: 90vw,
+            95: 95vw,
+            100: 100vw,
+        )
+    ),
+);
+// min-vw-width
+$utilities: (
+    "min-viewport-width": (
+        property: min-width,
+        class: min-vw,
+        values: (
+            5: 5vw,
+            10: 10vw,
+            15: 15vw,
+            20: 20vw,
+            25: 25vw,
+            30: 30vw,
+            35: 35vw,
+            40: 40vw,
+            45: 45vw,
+            50: 50vw,
+            55: 55vw,
+            60: 60vw,
+            65: 65vw,
+            70: 70vw,
+            75: 75vw,
+            80: 80vw,
+            85: 85vw,
+            90: 90vw,
+            95: 95vw,
+            100: 100vw,
+        )
+    ),
+);
+// max-vw-width
+$utilities: map-merge(
+    $utilities,
+    (
+        "max-viewport-width": (
+            property: max-width,
+            class: max-vw,
+            values: (
+                5: 5vw,
+                10: 10vw,
+                15: 15vw,
+                20: 20vw,
+                25: 25vw,
+                30: 30vw,
+                35: 35vw,
+                40: 40vw,
+                45: 45vw,
+                50: 50vw,
+                55: 55vw,
+                60: 60vw,
+                65: 65vw,
+                70: 70vw,
+                75: 75vw,
+                80: 80vw,
+                85: 85vw,
+                90: 90vw,
+                95: 95vw,
+                100: 100vw,
+            )
+        ),
+    )
+);
+// rem-width
+$utilities: map-merge(
+        $utilities,
+        (
+            "rem-width": (
+                property: width,
+                class: rw,
+                values: (
+                    5: 5rem,
+                    10: 10rem,
+                    15: 15rem,
+                    20: 20rem,
+                    25: 25rem,
+                    30: 30rem,
+                    35: 35rem,
+                    40: 40rem,
+                    45: 45rem,
+                    50: 50rem,
+                    55: 55rem,
+                    60: 60rem,
+                    65: 65rem,
+                    70: 70rem,
+                    75: 75rem,
+                    80: 80rem,
+                    85: 85rem,
+                    90: 90rem,
+                    95: 95rem,
+                    100: 100rem,
+                )
+            ),
+        )
+);
+// comfortable-vw-width
+.min-cvw {
+    min-width: calc(100vw + 6rem);
+}
+.cvw {
+    width: calc(100vw + 6rem);
+}
+.max-cvw {
+    max-width: calc(100vw + 6rem);
+}
