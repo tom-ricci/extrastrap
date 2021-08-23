@@ -181,6 +181,38 @@ $utilities: map-merge(
             ),
         )
 );
+// min-rem-height
+$utilities: map-merge(
+        $utilities,
+        (
+            "min-rem-height": (
+                property: min-height,
+                class: min-rh,
+                values: (
+                    5: 5rem,
+                    10: 10rem,
+                    15: 15rem,
+                    20: 20rem,
+                    25: 25rem,
+                    30: 30rem,
+                    35: 35rem,
+                    40: 40rem,
+                    45: 45rem,
+                    50: 50rem,
+                    55: 55rem,
+                    60: 60rem,
+                    65: 65rem,
+                    70: 70rem,
+                    75: 75rem,
+                    80: 80rem,
+                    85: 85rem,
+                    90: 90rem,
+                    95: 95rem,
+                    100: 100rem,
+                )
+            ),
+        )
+);
 // rem-height
 $utilities: map-merge(
         $utilities,
@@ -188,6 +220,38 @@ $utilities: map-merge(
             "rem-height": (
                 property: height,
                 class: rh,
+                values: (
+                    5: 5rem,
+                    10: 10rem,
+                    15: 15rem,
+                    20: 20rem,
+                    25: 25rem,
+                    30: 30rem,
+                    35: 35rem,
+                    40: 40rem,
+                    45: 45rem,
+                    50: 50rem,
+                    55: 55rem,
+                    60: 60rem,
+                    65: 65rem,
+                    70: 70rem,
+                    75: 75rem,
+                    80: 80rem,
+                    85: 85rem,
+                    90: 90rem,
+                    95: 95rem,
+                    100: 100rem,
+                )
+            ),
+        )
+);
+// max-rem-height
+$utilities: map-merge(
+        $utilities,
+        (
+            "max-rem-height": (
+                property: max-height,
+                class: max-rh,
                 values: (
                     5: 5rem,
                     10: 10rem,
