@@ -5,7 +5,11 @@
   "main": "index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass src/main.scss dist/main.css"
+    "build": "npm run transpile && npm run minify && npm run clean",
+    "prepare": "rm -rf temp && rmdir -rf dist",
+    "transpile": "sass src/main.scss temp/main.css",
+    "minify": "minify temp/main.css > dist/main.css",
+    "clean": "rm -rf temp"
   },
   "keywords": [
     "bootstrap",
@@ -17,9 +21,9 @@
   "author": "Thomas Ricci",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^5.1.0"
+    "bootstrap": "^5.1.0",
+    "minify": "^7.0.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tom-ricci/extrastrap.git"
