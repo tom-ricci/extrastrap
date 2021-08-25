@@ -17,8 +17,11 @@
   "author": "Thomas Ricci",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^5.1.0",
-    "minify": "^7.0.2"
+    "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {
+    "minify": "^7.0.2",
+    "sass": "^1.38.1"
   },
   "repository": {
     "type": "git",
