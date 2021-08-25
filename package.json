@@ -1,6 +1,6 @@
 {
   "name": "extrastrap",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Bootstrap-like utility classes made to extend your Bootstrap usage.",
   "main": "index.css",
   "scripts": {
